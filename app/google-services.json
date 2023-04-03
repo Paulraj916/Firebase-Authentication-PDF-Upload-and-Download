@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556933687958",
+    "project_id": "medidata-94449",
+    "storage_bucket": "medidata-94449.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556933687958:android:bb2cbb5ec0a61b58dc30b7",
+        "android_client_info": {
+          "package_name": "com.example.medidata1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556933687958-stjnl92sjht7agkj7obthu9ndfnlv8bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQwOO-QgTkw66l4pqBwWQb82gy5xaiX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556933687958-stjnl92sjht7agkj7obthu9ndfnlv8bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
