@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth auth;
-    Button button;
+    Button button,upload,download;
     TextView textView;
     FirebaseUser user;
 
@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         button = findViewById(R.id.logout);
+        upload = findViewById(R.id.upload);
+        download = findViewById(R.id.download);
         textView = findViewById(R.id.user_details);
         user = auth.getCurrentUser();
         if(user == null){
@@ -45,5 +47,22 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        upload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),UploadPDF.class);
+                startActivity(intent);
+            }
+        });
+
+        download.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Download.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }

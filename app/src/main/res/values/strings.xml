@@ -9,4 +9,8 @@
     <string name="click_to_login">click_to_login</string>
     <string name="click_to_register">click_to_register</string>
     <string name="logout">logout</string>
+    <string name="upload">Upload</string>
+    <string name="download">download</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="change_the_pdf_name">Change the PDF name</string>
 </resources>
